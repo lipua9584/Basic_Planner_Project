@@ -1,4 +1,4 @@
-# Basic_Scheduler_Project
+# Basic_Planner_Project
 일정 관리 프로그램
 ## 👩🏻‍💻 프로젝트 선정 배경
 일정을 효율적으로 기록하고 관리하는 개인용 플래너가 필요하여 기획하게 되었습니다.
