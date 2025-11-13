@@ -1,3 +1,2 @@
 ﻿  main.c
-C:\Users\winto\Documents\C언어B\Planner_project\Planner_project\main.c(17,8): warning C4101: 'menu' :참조되지 않은 지역 변수입니다.
   Planner_project.vcxproj -> C:\Users\winto\Documents\C언어B\Planner_project\x64\Debug\Planner_project.exe
