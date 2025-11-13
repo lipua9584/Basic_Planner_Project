@@ -9,23 +9,32 @@
 //	char plan_task[100];
 //};
 
-void mainmenu(void);
+int mainmenu(void);
 
 int main(int argv, char* argc[])
 {
-	mainmenu();
+	while (1) {
+		char menu;
+		mainmenu();
+	}
 	return 0;
 }
 
-void mainmenu(void)
+int mainmenu(void)
 {
+	int menu = 0;
+	printf("=====================플래너 프로그램====================\n");
+	printf("|                                                      |\n");
+	printf("------------------------메뉴----------------------------\n");
+	printf("|                                                      |\n");
+	printf("| 1. 새 계획 작성                                      |\n");
+	printf("| 2. 기존 계획 확인                                    |\n");
+	printf("| 3. 계획 수정                                         |\n");
+	printf("| 4. 계획 삭제                                         |\n");
+	printf("| 5. 종료                                              |\n");
+	printf("|                                                      |\n");
 	printf("--------------------------------------------------------\n");
-	printf("|");
-	printf("1. Create a new plan\n");
-	printf("2. View existing plans\n");
-	printf("3. Edit a plan\n");
-	printf("4. Delete a plan\n");
-	printf("5. Exit\n");
-	printf("Please select an option (1-5): ");
-	// Further implementation would go here
+	printf("메뉴를 선택하세요(1-5): ");
+	scanf_s("%d", &menu);
+	return menu;
 }
